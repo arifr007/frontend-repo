@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-18-green.svg)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5.2-blue.svg)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
+[![Material-UI](https://img.shields.io/badge/Material--UI-5-blue.svg)](https://mui.com/)
 
-## Getting Started
+# eBuddy Coding Test - Frontend UI 🚀
 
-First, run the development server:
+A responsive and user-friendly frontend for eBuddy's user management system, built with Next.js, React, and Material-UI.  This project demonstrates proficiency in modern web development technologies, state management, and UI/UX design.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
+- [eBuddy Coding Test - Frontend UI 🚀](#ebuddy-coding-test---frontend-ui-)
+  - [Table of Contents](#table-of-contents)
+  - [Features ✨](#features-)
+  - [Getting Started 🏁](#getting-started-)
+    - [Prerequisites 🛠️](#prerequisites-️)
+    - [Installation 💻](#installation-)
+  - [Running Locally 🏠](#running-locally-)
+  - [Error Handling ⚠️](#error-handling-️)
+  - [Contributing 🤝](#contributing-)
+  - [License 📄](#license-)
+  - [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features ✨
+- **User Management:**
+    - View a list of users with pagination.
+    - Create, update, and delete user profiles.
+    - Filter and search for specific users.
+- **Authentication:**
+    - Secure user login and logout functionality.
+    - Robust error handling for invalid credentials.
+- **Responsive Design:**  
+    - Optimized for various screen sizes (desktop, tablet, mobile).
+- **Modern Tech Stack:**
+    - Utilizes Next.js for server-side rendering and optimized performance.
+    - Leverages React for building reusable components and managing application state.
+    - Employs Material-UI for a visually appealing and consistent design system.
 
-## Learn More
+## Getting Started 🏁
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites 🛠️
+- Node.js v18+
+- npm (or yarn)
+- Firebase CLI (if deploying to Firebase)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation 💻
+- #### Clone the repository:
+   ```bash
+   git clone git@github.com:arifr007/frontend-repo.git
+   ```
+- #### Navigate to the project directory:
+   ```bash
+   cd frontend-repo
+   ```
+- #### Install dependencies:
+   ```bash
+   npm i --save
+   ```
+- #### Configuration:
+  Rename the `.env.local.example` file to `.env.local`. Fill in your Firebase project credentials in the `.env.local` file.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Running Locally 🏠
 
-## Deploy on Vercel
+- Ensure the backend server (if applicable) is running.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Start the development server:
+  ```bash
+  npm run dev
+   ```
+- Open your browser to http://localhost:3000 to view the app.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Error Handling ⚠️
+The frontend includes error handling for common issues like:
+- **Network Errors:** Displays messages when there's no connection to the backend.
+- **Authentication Errors:** Provides feedback for incorrect login credentials.
+- **API Errors:** Shows user-friendly messages based on error codes from the backend.
+
+## Contributing 🤝
+- Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License 📄
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+Arif Ramadan - r07.arif@gmail.com
